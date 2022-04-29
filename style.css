@@ -1,0 +1,338 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* height:25px; */
+    float:left;
+    background-image: url(https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/starfield-banner.jpg);
+    background-color: black;
+    background-repeat: repeat;
+}
+
+#fullpage{
+    width: 100%;
+    height:fit-content;
+    background-color: aqua;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: black;
+    padding-left:2%;
+    padding-right:2%;
+    margin:0px;
+}
+
+#icon{
+    position: relative;
+    width:86.69px;
+    height: 90px;
+}
+#iconimg{
+    margin: 10px;
+    width: 80px;
+}
+
+.topmenu{
+    font-size: 20.58px;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left:4%;
+    width: 100%;
+    height:80px;
+}
+.topcontents{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.top{
+
+    border-left: 10px;
+    border-color: aqua;
+
+    height: 50px;
+}
+.contentborder{
+
+    align-self: center;
+    background-color: grey;
+    margin-top: 12px;
+    width: 1.5px;
+    height: 50px;
+}
+
+   
+.topsearch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    MARGIN-BOTTOM: 17PX;
+    text-align: center;
+    width: 150px;
+    height: fit-content;
+    background-color: #333232;
+    margin-left: 10px;
+    height: 38px;
+}
+
+.searchbox{
+    /* margin: 3px; */
+    padding-left: 10px;
+    background-color: transparent;
+    width: 140px;
+    height: 94%;
+    border: 0px;
+}
+
+.searchicon{
+    margin: -33px;
+    width: fit-content;
+    height: 30px;
+}
+
+.topcontentsearch{
+    margin-left: 10px;
+    font-size: 14px;
+    color: #676464;
+}
+    
+.bottommenu{
+    background-color: rgb(85, 85, 85);
+    font-size: 8px;
+    font-style: normal;
+    padding: 0px;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 86px;
+    position: absolute;
+    width: 67%;
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+
+}
+.headerlabels{
+    width:fit-content;
+    font-size: 14px;
+    color: white;
+}
+.contentborder2{
+    margin: 8px;
+    background-color: grey;
+    width: 1px;
+    height: 22px;
+}
+.freezemenu{
+    margin-top: 0px;
+    width: 100%;
+    position: fixed;
+    z-index: +1;
+}
+
+#box1{
+    position: absolute;
+    margin-top: 150px;
+    display: flex;
+    background-color:transparent;
+    height: 61px;
+    width: 96%;
+    z-index: -1;
+}
+#vhed{
+    padding-top: 18px;
+    color: white;
+    font-size: 21px;
+}
+
+#box1-1{
+    margin-top:-55px ;
+    padding: 7.5px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 99%;
+    height:28px;
+    background-color:#fc3d21;
+}
+#reminder{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-weight:bold;
+    font-size: 17px;
+    height: auto;
+    /* padding-bottom:5px; */
+    /* padding-left: 3px; */
+    /* margin-top: 10px; */
+    text-decoration:none;
+}
+
+
+#box2-1{
+    position: absolute;
+    margin-top: 208px;
+    display: flex;
+    background-color: red;
+    height: 555px;
+    width:auto;
+}
+
+#box3{
+    padding-top: 9px;
+    padding-left: 10px;
+    position: absolute;
+    background-color: white;
+    width: 320px;
+    height: 606px;
+    left: 1063px;
+    top: 208px;
+
+}
+#updates{
+    font-family:'Titillium Web', sans-serif;
+    font-size: 22PX;
+    color: #428bca;
+    font-weight:bolder;
+}
+#contents{
+    padding-top: 20px;
+}
+#links{
+    font-size: large;
+    font-style: normal;
+    text-decoration: none;
+}
+#feed{
+    padding-left: 121px;
+    position: relative;
+}
+#box4{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    position: absolute;
+    top: 785px;
+    background-color: #488cc8;
+    width: 1000px;
+    height: 40px;
+
+}
+#live{
+    color: white;
+    font-size: 14px;
+}
+#box5{
+    position: absolute;
+    top:838px;
+    background-color: transparent;
+    width: 96%;
+    height: fit-content;
+
+}
+#box5-1{
+    display:flex;
+    flex-direction: row;
+}
+#box5-2{
+    display: flex;
+    flex-direction: row;
+}
+#box5-3{
+    display: flex;
+    flex-direction: row;
+}
+.cards{
+    overflow: hidden;
+    background-color: aliceblue;
+    position:relative;
+    margin: 7.5px;
+    width: 25%;
+    height: 315px;
+}
+.cardimg{
+    width: 100%;
+
+}
+.tag{
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-weight:600;
+    background-color: #5d7fb9;
+    opacity:0.9;
+    top: 71.4%;
+    position: absolute;
+
+}
+.tag1{
+    color: white;
+}
+.tagd{
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 23px;
+    position: absolute;
+    padding: 5px 10px;
+    top: 83%;
+    background-color: white;
+    color: black;
+    height: 56px;
+}
+#box6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top:1850px;
+    width: 96%;
+    background-color: #15418c;
+    height: 40px;
+    color: white;
+    font-weight: 600;
+
+}
+#box7{
+    position: absolute;
+    top: 1900px;
+    background-color:transparent;
+    width: 96%;
+    height: 180px;
+}
+#box7-1{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+}
+#box7-2{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+}
+#bottomicon{
+    height: 10pxl;
+}
+#text{
+    font-size:14px;
+    font-weight: bold;
+    margin-top: 5px;
+    line-height: 18px;
+    color: white;
+}
+ul{
+    position: relative;
+    margin-left: 555px;
+    list-style: none;
+    color: #5d7fb9;
+    display: flex;
+}
+ul li{
+    font-size: 13px;
+    font-weight: 800;
+    padding-left: 20px;
+}
